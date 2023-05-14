@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    border: 1px solid black;
+    text-align: center;
+    height: 620px;
+    width: 1030px;
+    margin: 0 auto;
+}
+#grid>div{
+    border: 1px solid black;
+    background: yellow;
+}
+#grid>div:nth-child(1){
+    grid-column: 1/6;
+    font-weight: 1000;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grid>div:nth-child(2){
+    background: url(../img/Endschool.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#grid>div:nth-child(3){
+    background: url(../img/team.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#grid>div:nth-child(4){
+    background: url(../img/sides.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#grid>div:nth-child(5){
+    background: url(../img/customer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#grid>div:nth-child(6){
+    background: url(../img/Recognize.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#grid>div:nth-child(7){
+    background: url(../img/roles.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#grid>div:nth-child(8){
+    background: url(../img/site.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#grid>div:nth-child(9){
+    background: url(../img/site2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#grid>div:nth-child(10){
+    background: url(../img/programming.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#grid>div:nth-child(11){
+    background: url(../img/done.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
